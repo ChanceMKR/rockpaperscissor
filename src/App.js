@@ -1,25 +1,16 @@
-import logo from './logo.svg';
 import './App.css';
 
+
+// 1. 박스두개 (타이틀, 사진정보, 결과)
+// 2. 가위바위보 버튼
+// 3. 버튼을 클릭하면 클릭한 값이 박스에 보임
+// 4. 컴퓨터는 랜덤하게 아이템 선택이 된다.
+// 5. 누가 이겼는지 따진다.
+// 6. 이기면 초록색 지면 빨강색 비기면 검정색
+
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+  return <div>
+    </div>;
 }
 
 export default App;
